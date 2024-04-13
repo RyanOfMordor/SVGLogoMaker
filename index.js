@@ -7,7 +7,7 @@ const { Triangle, Square, Circle } = require("./shapes");
 // Function writes the SVG file using user answers from inquirer prompts
 function writeToFile(fileName, answers) {
   // File starts as an empty string
-  let svgString = "";
+  let svgString = ""; 
   // Sets width and height of logo container
   svgString =
     '<svg version="1.1" width="300" height="200" xmlns="http://www.w3.org/2000/svg">';
